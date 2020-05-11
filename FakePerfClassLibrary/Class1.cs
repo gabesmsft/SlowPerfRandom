@@ -15,11 +15,11 @@ namespace FakePerfClassLibrary
         public static void MysteryMethod2(string s)
         {
             Random r1 = new Random();
-            int i = r1.Next(0, 28);
-            if (i % 7 == 0)
+            int i = r1.Next(0, 100);
+            if (i % 10 == 0)
             {
                 Random r2 = new Random();
-                int j = r2.Next(1500, 3000);
+                int j = r2.Next(1000, 6000);
                 string path = @"d:\temp\wakawaka\MyTest.txt";
                 for (int k = 0; k < j; k++)
                 {
