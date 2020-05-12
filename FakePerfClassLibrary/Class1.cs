@@ -16,10 +16,10 @@ namespace FakePerfClassLibrary
         {
             Random r1 = new Random();
             int i = r1.Next(0, 100);
-            if (i % 10 == 0)
+            if (i % 5 == 0)
             {
                 Random r2 = new Random();
-                int j = r2.Next(1000, 6000);
+                int j = r2.Next(2000, 20000);
                 string path = @"d:\temp\wakawaka\MyTest.txt";
                 for (int k = 0; k < j; k++)
                 {
