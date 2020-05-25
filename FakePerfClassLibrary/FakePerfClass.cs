@@ -50,5 +50,11 @@ namespace FakePerfClassLibrary
         {
         }
 
+        public async static Task<bool> MysteryMethod4(string s)
+        {
+            MysteryMethod2(s);
+            return true;
+        }
+
     }
 }
