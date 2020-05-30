@@ -263,7 +263,5 @@ paket-files/
 __pycache__/
 *.pyc
 
-Properties/
-FakePerfClassLibrary/bin/
-FakePerfClassLibrary/obj/
+*/Properties/
 .vs
